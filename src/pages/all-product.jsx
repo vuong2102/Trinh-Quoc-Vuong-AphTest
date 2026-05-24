@@ -5,7 +5,6 @@ import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { setProductCategory } from "../redux/category";
 import { categoryService } from "../services/categoryService";
-import { AllProductLegacyStatic } from "./legacy/AllProductLegacyStatic";
 
 function AllProduct() {
   const navigate = useNavigate();

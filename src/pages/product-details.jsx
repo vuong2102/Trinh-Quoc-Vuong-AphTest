@@ -190,12 +190,12 @@ function ProductDetail() {
                   </div>
                   <p className="description">{product?.shortDesc}</p>
                   <div className="_6zrw">
-                    <Link to="/contact-us" className="button button-gradient">
+                    <button className="button button-gradient">
                       <span>Request Quote</span>
-                    </Link>
-                    <a href="#" className="button button-outline-green">
+                    </button>
+                    <button className="button button-outline-green">
                       <span>Add to Basket</span>
-                    </a>
+                    </button>
                   </div>
                   {product?.description && (
                     <div className="contents widget-content">
@@ -312,7 +312,7 @@ function ProductDetail() {
       </Spin>
       {/* ========== ORIGINAL STATIC UI (gallery, product info, related products carousel) — template from initial commit.
         Reason: Replaced by GetProductByUrl / GetRelatedProducts API integration above. ========== */}
-      {false && (
+      {/* {false && (
         <>
                 <section className="snouting-daw section">
                   <div className="section-content relative">
@@ -450,7 +450,7 @@ function ProductDetail() {
                   </div>
                 </section>
           
-                {/* <section className="spinally-zee section">
+                <section className="spinally-zee section">
                   <div className="section-content relative">
                     <div className="_7zow row">
                       <div className="_4cnm col large-12 medium-12 small-12 RemovePaddingBottom">
@@ -475,7 +475,7 @@ function ProductDetail() {
                       </div>
                     </div>
                   </div>
-                </section> */}
+                </section>
           
                 <section className="xylomas-goad section">
                   <div className="section-content relative">
@@ -651,7 +651,7 @@ function ProductDetail() {
                   </div>
                 </section>
         </>
-      )}
+      )} */}
     </div>
   );
 }
