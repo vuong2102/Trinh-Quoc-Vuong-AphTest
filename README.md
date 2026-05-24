@@ -71,6 +71,15 @@ $ npm install
 $ npm run dev
 ```
 
+```bash
+# Chạy mock API + frontend cùng lúc
+$ npm install
+$ cd server && npm install && cd ..
+$ npm run dev:all
+```
+
+Mock API chạy tại `http://localhost:8081/api` (cấu hình trong `.env` → `VITE_BASE_URL`).
+
 ## ⌨️ Thực hành
 
 ### Tên đề: 📦 E-Catalog – Giới thiệu sản phẩm
